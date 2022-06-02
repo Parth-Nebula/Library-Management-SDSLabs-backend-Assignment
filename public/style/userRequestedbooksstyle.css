@@ -1,0 +1,130 @@
+body
+{   
+    height:97vh;
+        
+    background-color: #214636 ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 700;
+    color: #ffffff ;
+    font-size: 1.5vw ;
+    
+}
+
+.backButton
+{
+    
+    position: absolute;
+    top: 1vw;
+    left: 90vw;
+    
+    height: 2.56vw;
+    width: 6.88vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: #ffffff;
+    
+    border: none;
+    border-radius: 1.28vw;
+    
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 700;
+    color: #214636 ;
+    font-size: 1.5vw ;
+    
+    
+}
+
+.backButton:hover
+{
+    
+    border: 0.16vw solid #A8F9FE ;
+    
+}
+
+.cancelButton
+{
+    
+    height: 2.56vw;
+    width: 6.88vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: #ffffff;
+    
+    border: none;
+    border-radius: 1.28vw;
+    
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 700;
+    color: #214636 ;
+    font-size: 1.5vw ;
+    
+    
+}
+
+.cancelButton:hover
+{
+    
+    border: 0.16vw solid #A8F9FE ;
+    
+}
+
+.okButton
+{
+    
+    height: 2.56vw;
+    width: 6.88vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: #ffffff;
+    
+    border: none;
+    border-radius: 1.28vw;
+    
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 700;
+    color: #214636 ;
+    font-size: 1.5vw ;
+    
+    
+}
+
+.okButton:hover
+{
+    
+    border: 0.16vw solid #A8F9FE ;
+    
+}
+
+#requestsTable
+{
+    
+    position: absolute;
+    
+    top: 4vw;
+    
+    left:17vw;
+    
+    width: 81vw;
+    
+    padding: 1vw;
+    
+    text-align: left; 
+}
