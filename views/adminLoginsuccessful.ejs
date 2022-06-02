@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>
+        
+            Welcome
+        
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style/adminLoginsuccessfulstyle.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+        
+            <div class="loginSuccessful">
+
+                Login Successful !
+
+            </div>
+
+
+            <div id="welcome">
+
+
+
+            </div>
+
+            <form class="next" action="/goToadminPortal" method="POST" >
+
+                <input type="text" id="username" name="username" value="" style="display:none">
+                <input type="text" id="tempPassword" name="temppassword" value="" style="display:none">
+                <input type="submit" class="nextButton" value="Next">
+
+            </form>
+        
+    </body>
+    
+    
+    <script>
+        const use = '<%= data.username %>' ;
+        const ran = '<%= data.tempPassword %>' ;
+    </script>
+    
+    <script src="script/adminLoginsuccessfulscript.js"></script>
+
+</html>

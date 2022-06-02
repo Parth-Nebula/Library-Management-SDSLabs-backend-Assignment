@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>
+        
+            Add Books
+        
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style/adminAddbooksstyle.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+    
+        <div class="headPage" id="addBooks">
+        
+            Add Books
+        
+        </div>
+        
+        <div class="addPortal">
+            
+            <form class="bookForm" action="/addBooks" method="POST">
+                
+                <input type="text" class="username" name="username" value="" style="display:none">
+                
+                <input type="text" class="tempPassword" name="temppassword" value="" style="display:none">
+
+                <input type="text" placeholder="Book Title" id="bookTitle" name="booktitle">
+
+                <input type="text" placeholder="Quantity" id="quantity" name="quantity">
+
+                <input type="submit" class="addButton" value="Add"/>
+
+            </form>
+        
+        </div>
+        
+        <div class="resultBar">
+        
+            <%= data %>
+            
+        </div>
+        
+        <form class="back" action="/goToadminPortal" method="POST" >
+
+            <input type="text" id="username" name="username" value="" style="display:none">
+            <input type="text" id="tempPassword" name="temppassword" value="" style="display:none">
+            <input type="submit" class="backButton" value="Back">
+
+        </form>
+    
+    </body>
+    
+    <script src="script/adminAddbooksscript.js"></script>
+
+</html>

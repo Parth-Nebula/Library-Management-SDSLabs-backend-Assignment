@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>
+        
+            History
+        
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style/userHistorystyle.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+        
+        <div id="userInfo">
+        
+            <center>
+            
+                <div id="hiUser">
+
+
+
+                </div>
+                
+            </center>
+
+            <br>
+
+            <center>
+            
+                <div id="fineUser">
+
+
+
+                </div>
+                
+            </center>
+            
+            <br>
+            
+            <center>
+            
+                <div id="tableName">
+
+
+
+                </div>
+                
+            </center>
+            
+        </div>    
+  
+        <div id="tableDiv">
+
+            <table id="booksTable">
+
+
+
+            </table>
+
+        </div>
+
+        <form class="back" action="/goTouserPortal" method="POST" >
+
+            <input type="text" id="username" name="username" value="" value="" style="display:none" >
+            <input type="text" id="tempPassword" name="temppassword" value="" style="display:none">
+            <input type="submit" class="backButton" value="Back">
+
+        </form>
+        
+    </body>
+    
+    
+    <script>
+        
+        dat = <%- JSON.stringify(data.userinfo) %>;
+        
+        datzenpen = <%- JSON.stringify(data.booksissued) %>;
+        
+    </script>
+    
+    <script src="script/userHistoryscript.js"></script>
+
+</html>

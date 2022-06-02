@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>
+        
+            Login
+        
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style/userLoginstyle.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+    
+        <div class="headPage" id="thisIs">
+        
+            This is
+        
+        </div>
+        
+        <div class="headPage" id="library">
+        
+            Library
+        
+        </div>
+        
+        <div class="loginPortal">
+            
+            <div class="top">
+                
+                <form action="/goTouserLoginpage" method="GET">
+            
+                    <input type="submit" class="userButton" value="User">
+                
+                </form>    
+                    
+                <form action="/goToadminLoginpage" method="GET">
+                    
+                    <input type="submit" class="adminButton" value="Admin">
+                    
+                </form>
+
+            
+            </div>
+            
+            <div class="bottom">
+            
+                <form class="userForm" action="/loginUser" method="POST">
+                                
+                    <input type="text" placeholder="Username" id="userName" name="username">
+                                
+                    <input type="password" placeholder="Password" id="password" name="password">
+                    
+                    <input type="submit" class="loginButton" value="Login"/>
+
+                </form>
+            
+            </div>
+        
+        </div>
+        
+        <div class="registrationBar">
+        
+            <div class="new">
+            
+                New User ?
+            
+            </div>
+            
+            <form action="/goTouserRegisterpage" method="GET">
+            
+                <input type="submit" class="registerButton" value="Register">
+            
+            </form>
+        
+        </div>
+    
+    </body>
+    
+    <script src="script/userLoginscript.js"></script>
+
+</html>

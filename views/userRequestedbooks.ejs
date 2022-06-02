@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>
+        
+            Requests
+        
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style/userRequestedbooksstyle.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+  
+            <div id="tableDiv">
+
+                <table id="requestsTable">
+                    
+                    
+                
+                </table>
+
+            </div>
+
+            <form class="back" action="/goTouserPortal" method="POST" >
+
+                <input type="text" id="username" name="username" value="" style="display:none">
+                <input type="text" id="tempPassword" name="temppassword" value="" style="display:none">
+                <input type="submit" class="backButton" value="Back">
+
+            </form>
+        
+    </body>
+    
+    
+    <script>
+        
+        dat = <%- JSON.stringify(data) %>;
+                
+    </script>
+    
+    <script src="script/userRequestedbooksscript.js"></script>
+
+</html>

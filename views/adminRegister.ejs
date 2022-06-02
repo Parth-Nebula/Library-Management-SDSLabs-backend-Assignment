@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>
+        
+            Register
+        
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style/adminRegisterstyle.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+    
+        <div class="headPage" id="thisIs">
+        
+            This is
+        
+        </div>
+        
+        <div class="headPage" id="library">
+        
+            Library
+        
+        </div>
+        
+        <div class="registerPortal">
+            
+            <div class="top">
+                
+                <form action="/goTouserRegisterpage" method="GET">
+            
+                    <input type="submit" class="userButton" value="User">
+                
+                </form>    
+                    
+                <form action="/goToadminRegisterpage" method="GET">
+                    
+                    <input type="submit" class="adminButton" value="Admin">
+                    
+                </form>
+
+            
+            </div>
+            
+            <div class="bottom">
+            
+                <form class="userForm" action="/registeradmin" method="POST">
+                                
+                    <input type="text" placeholder="Username" id="userName" name="username">
+                                
+                    <input type="password" placeholder="Password" id="password" name="password">
+                    
+                    <input type="submit" class="registerButton" value="Register"/>
+
+                </form>
+            
+            </div>
+        
+        </div>
+        
+        <div class="loginBar">
+        
+            <div class="old">
+            
+                Already Registered ?
+            
+            </div>
+            
+            <form action="/goToadminLoginpage" method="GET">
+            
+                <input type="submit" class="loginButton" value="Login">
+            
+            </form>
+        
+        </div>
+    
+    </body>
+    
+    <script src="script/adminRegisterscript.js"></script>
+
+</html>s
